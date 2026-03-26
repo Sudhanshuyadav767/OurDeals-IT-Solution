@@ -37,5 +37,9 @@
     "globals": "^15.9.0",
     "tailwindcss": "^4.2.2",
     "vite": "^5.4.1"
+  },
+  "overrides": {
+    "react": "$react",
+    "react-dom": "$react-dom"
   }
 }
