@@ -23,9 +23,10 @@ export default function Experience() {
             <h2 className="text-4xl md:text-5xl lg:text-7xl font-bold mb-10 text-white tracking-tight leading-[1.1] max-w-4xl">
               Ready to build the digital future of your business?
             </h2>
+            <a href="#contact">
             <Button variant="primary" className="px-12 py-5 text-xl shadow-2xl shadow-black/20 bg-white text-accent hover:bg-slate-50 border-none font-bold">
               Get Started Now
-            </Button>
+            </Button></a>
           </div>
         </motion.div>
       </div>
