@@ -8,10 +8,10 @@ export default function Contact() {
     e.preventDefault();
 
     emailjs.sendForm(
-      "service_1yiwxp3",     // 👈 yaha apna daal
-      "template_dwvo0ne",    // 👈 yaha apna daal
+      import.meta.env.VITE_EMAILJS_SERVICE_ID,
+      import.meta.env.VITE_EMAILJS_TEMPLATE_ID,
       e.target,
-      "EMHCId13ojN1GTWcY"      // 👈 yaha apna daal
+      import.meta.env.VITE_EMAILJS_PUBLIC_KEY
     )
     .then(() => {
       alert("Message Sent Successfully 🚀");
@@ -106,7 +106,7 @@ Block C, 56/6,3rd Floor, Sector 62, New Delhi, Noida, India
                   name="user_name"
                   required
                   className="w-full bg-white border border-slate-200 rounded-2xl px-5 py-4 text-primary focus:outline-none focus:border-accent focus:ring-4 focus:ring-accent/10 transition-all text-lg shadow-sm" 
-                  placeholder="John Doe" 
+                  placeholder="Enter your name" 
                 />
               </div>
 
@@ -117,7 +117,7 @@ Block C, 56/6,3rd Floor, Sector 62, New Delhi, Noida, India
                   name="user_email"
                   required
                   className="w-full bg-white border border-slate-200 rounded-2xl px-5 py-4 text-primary focus:outline-none focus:border-accent focus:ring-4 focus:ring-accent/10 transition-all text-lg shadow-sm" 
-                  placeholder="john@company.com" 
+                  placeholder="Enter your email" 
                 />
               </div>
 
