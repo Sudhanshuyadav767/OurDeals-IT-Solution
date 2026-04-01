@@ -3,7 +3,7 @@ import Image from '../assests/Handshakegraphic.png';
 export default function Features() {
   return (
     <section id="trust" className="py-32 relative z-10 bg-background overflow-hidden">
-      <div className="max-w-[1400px] mx-auto px-4 sm:px-6 lg:px-8 grid grid-cols-1 lg:grid-cols-2 gap-20 items-center">
+      <div  id="features"  className="max-w-[1400px] mx-auto px-4 sm:px-6 lg:px-8 grid grid-cols-1 lg:grid-cols-2 gap-20 items-center">
         {/* Left Text */}
         <motion.div
           initial={{ opacity: 0, x: -30 }}

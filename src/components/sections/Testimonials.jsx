@@ -8,7 +8,7 @@ const testimonials = [
 
 export default function Testimonials() {
   return (
-    <section className="py-32 relative z-10 bg-surface">
+    <section id="testimonials" className="py-32 relative z-10 bg-surface">
       <div className="max-w-[1400px] mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-20">
           <h2 className="text-4xl md:text-5xl font-bold mb-4 tracking-tight text-primary">

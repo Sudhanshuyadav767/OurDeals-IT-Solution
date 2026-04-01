@@ -2,6 +2,7 @@ import { motion } from 'framer-motion';
 import Button from '../ui/Button';
 import heroImage from '../assests/Landing page Png.png';  
 
+
 export default function Hero() {
   return (
     <section className="relative min-h-[90vh] flex items-center justify-center overflow-hidden bg-background  px-4">
@@ -20,8 +21,10 @@ export default function Hero() {
             OurDeals IT Solution is your dedicated technology partner. We bring businesses of all industries online, maintain your digital presence, and help you grow.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 items-start pointer-events-auto">
-            <Button variant="primary" className="px-10">Start your project</Button>
-            <Button variant="outline" className="px-10">View our work</Button>
+            <a href="#contact">
+            <Button  variant="primary" className="px-10">Start your project</Button>
+            </a>
+        <a href="#projects">    <Button variant="outline" className="px-10">View our work</Button></a>
           </div>
         </motion.div>
 

@@ -1,3 +1,4 @@
+import logo from '../assests/Handshakegraphic.png';
 export default function Footer() {
   return (
     <footer className="bg-[#0A0F1C] text-slate-400 py-32 relative overflow-hidden mt-[-2rem] rounded-t-[3rem] z-20">
@@ -27,9 +28,9 @@ export default function Footer() {
 
         <div className="grid grid-cols-2 md:grid-cols-6 gap-10 mb-20 border-b border-white/5 pb-16">
           <div className="col-span-2 md:col-span-2 pr-8">
-            <div className="flex items-center gap-2 mb-8 cursor-pointer group">
-               <span className="w-10 h-10 bg-accent rounded-br-none rounded-2xl flex items-center justify-center p-2 shadow-sm shadow-accent/20 group-hover:scale-105 transition-transform">
-                 <svg viewBox="0 0 24 24" fill="white"><path d="M12 2L2 22h20L12 2z"/></svg>
+            <div className="flex items-center cursor-pointer group">
+               <span className="w-29 h-29">
+            <img src={logo} alt="Logo" className="w-full h-full object-contain" />
                </span>
                <span className="text-2xl font-bold tracking-tight text-white">
                  OurDeals
